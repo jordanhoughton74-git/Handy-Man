@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Slab&display=swap');
+
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+.wrapper{
+    max-width: 1440px;
+}
+.wrapper-2 {
+    max-width: 1000px;
+}
+.home-top, .test-back, .services-top, .handyman-top {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.home-top {
+    background-image: url("/images/WoodenFloorMain.jpg");
+}
+.test-back {
+    background-image: url("/images/Testimonial.jpg");   
+}
+.services-top {
+    background-image: url("/images/Service.jpg");
+}
+.handyman-top {
+    background-image: url("/images/About-HandyMan.jpg")
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9999;
+    width: 100%;
+}
+
+.icon-info {
+    padding-top: 25px;
+}
+
+
+.icon-svg {
+    padding-left: 24px;
+}
+
+.grid-indigo {
+    background-image: radial-gradient(#5a67d8 2px, transparent 2px);
+    background-size: 16px 16px;
+}
+.grid-grey {
+    background-image: radial-gradient(#ffea00 2px, transparent 2px);
+    background-size: 16px 16px;
+}
+
+.wrapper, .wrapper-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-color {
+    background-color: #f2f2f2;
+}
+.line-space {
+    line-height: 0;
+}
+.max-width {
+    max-width: 400px;
+}
+
+.custom-shape-divider-bottom-1628680838 {
+    position: absolute;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1628680838 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1628680838 .shape-fill {
+    fill: #f2f2f2;
+}
+
+.collapsing {
+    transition: all .3s ease;
+
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1628680838 svg {
+        width: calc(100% + 1.3px);
+        height: 74px;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .min-h-screen {
+        min-height: 75vh;
+    }
+}
+
+@media (max-width: 1023px) {
+    .collapsed {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        max-width: 500px;
+    }
+
+}
