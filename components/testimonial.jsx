@@ -4,8 +4,8 @@ export default function Testimonial() {
 
         <div className="test-back mx-auto">
             <div className="backdrop-filter backdrop-brightness-50 w-full h-full">
-                <h3 className="text-white py-12 font-semibold text-center text-3xl md:pt-24">What Our Customers Are Saying!</h3>
-                <div className=" mx-auto pb-10 md:pb-12 md:px-24">
+                <h4 className="text-white py-12 font-semibold text-center text-3xl md:pt-24">What Our Customers Are Saying!</h4>
+                <div className=" mx-auto pb-10 md:pb-12 md:px-24 wrapper">
                     <div className="flex flex-col h-full relative">
 
                         <div className="absolute top-0 left-0 mt-3 ml-4 md:mt-5 md:ml-12">
@@ -19,7 +19,7 @@ export default function Testimonial() {
                                 </p>
 
                                 <div className="text-center">
-                                    <h2 className="text-sm md:text-base font-bold text-gray-300 leading-tight">John Wick</h2>
+                                    <p className="text-sm md:text-base font-bold text-gray-300 leading-tight">John Wick</p>
                                     <small className="text-gray-100 text-xs md:text-sm truncate">Product Manager, Fake Corp.</small>
                                 </div>
                             </div>

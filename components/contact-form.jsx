@@ -3,7 +3,7 @@ export default function ContactForm() {
     return (
         <>
             <div className="">
-                <div className="bg-indigo-500 py-8 rounded-t-lg mb-2">
+                <div className="bg-indigo-700 py-8 rounded-t-lg mb-2">
                     <p className="text-white text-center font-bold uppercase">How can we help?</p>
                 </div>
 
@@ -17,7 +17,7 @@ export default function ContactForm() {
 
           </div>
           <div className="mt-8">
-            <label className="uppercase text-sm text-gray-600 font-bold">Email</label>
+            <label className="uppercase text-sm text-gray-600 font-bold">Phone Number</label>
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
               />
@@ -32,7 +32,7 @@ export default function ContactForm() {
           </div>
           <div className="mt-8">
             <button
-              className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+              className="uppercase text-sm font-bold tracking-wide bg-indigo-700 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
               type="submit"
               >
               Send Message

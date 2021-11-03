@@ -23,21 +23,25 @@ const solutions = [
 
 export default function Example() {
   return (
+    <header>
     <nav className="wrapper navbar flex items-center justify-between flex-wrap bg-teal-500 pt-6 pl-2 lg:px-12">
       <div className="flex items-center flex-shrink-0 text-white">
         <svg className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" /></svg>
-        <span className="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+        <span className="font-semibold text-xl tracking-tight">Handy Man</span>
       </div>
       <div className="w-full hidden lg:block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow text-right text-white">
           <Link href="/"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
             Home
           </a></Link>
-          <Link href="/services"><a href="#responsive-header" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          <Link href="/services"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
             Services
           </a></Link>
-          <Link href="/about"><a href="#responsive-header" className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+          <Link href="/about"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
             About
+          </a></Link>
+          <Link href="/contact-us"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+            Contact Us
           </a></Link>
         </div>
       </div>
@@ -90,6 +94,7 @@ export default function Example() {
         </Popover>
       </div>
     </nav>
+    </header>
   )
 }
 
