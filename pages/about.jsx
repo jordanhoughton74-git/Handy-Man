@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ReactCompareImage from 'react-compare-image';
 
 export default function About (){
     return (
@@ -20,7 +21,7 @@ export default function About (){
         <h1 className="py-40 text-center text-white text-3xl font-bold">About</h1>
 
     </div>
-    <div className="wrapper py-10">  
+    <div className="wrapper pt-10 pb-4">  
         <div className="flex flex-col md:flex-row p-4 md:p-12">
             <div className="flex-1"></div>
             <div className="flex-1">
@@ -66,8 +67,19 @@ export default function About (){
         </div>
     </div>
 
-    <div>
-        <h3>Before and After</h3>
+    <div className="px-4 md:px-40 lg:px-80 text-center bg-color">
+        <h3 className="pt-4 text-2xl">Before and After</h3>
+
+        <p className="pb-5 text-xl">Before and After images of a wall build in a garden</p>
+        <ReactCompareImage className="pb-10" leftAlt="before the wall was renovated" rightAlt="after the wall was renovated" leftImage="images/before-after/before-wall.webp" rightImage="images/before-after/after-wall.webp" />
+        <p className="py-5 text-xl">Before and After images of a stylish patio</p>
+        <ReactCompareImage leftAlt="before patio" rightAlt="after patio" leftImage="images/before-after/before-patio.webp" rightImage="images/before-after/after-patio.webp" />
+
+
+
+
+
+
     </div>
     <div className="bg-color text-center py-10">
         <div className="wrapper">

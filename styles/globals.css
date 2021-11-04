@@ -25,7 +25,7 @@ h2 {
     background-image: url("/images/WoodenFloorMain.webp");
 }
 .test-back {
-    background-image: url("/images/Testimonial.jpg");   
+    background-image: url("/images/Testimonial.webp");   
 }
 .services-top {
     background-image: url("/images/Service.jpg");
@@ -45,7 +45,6 @@ h2 {
 .icon-info {
     padding-top: 25px;
 }
-
 
 .icon-svg {
     padding-left: 24px;
@@ -139,5 +138,6 @@ h2 {
     .wrapper {
         max-width: 500px;
     }
+
 
 }

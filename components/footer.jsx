@@ -280,14 +280,14 @@ export default function Footer(){
           <p className="title-font font-bold text-white tracking-widest text-md mb-3">Useful Links</p>
           <nav className="list-none mb-10">
             <ul>
-              <li>
+              <li className="mb-2">
                 <Link href="/"><a className="text-white hover:text-red-300">Home</a></Link>
               </li>
               <li>
                 <Link href="/services"><a className="text-white hover:text-red-300">Services</a></Link>
               </li>
-              <li>
-                <Link href="/about"><a className="text-white hover:text-red-300">About</a></Link>
+              <li className="mt-2">
+                <Link href="/about"><a className="text-white hover:text-red-300 mt-3">About</a></Link>
               </li>
             </ul>
            
@@ -297,13 +297,13 @@ export default function Footer(){
           <p className="title-font font-bold text-white tracking-widest text-md mb-3">Contact</p>
           <nav className="list-none mb-10">
           <ul>
-          <li>
+          <li className="mb-2">
             <Link href="/contact-us"><a className="text-white hover:text-red-300">Contact Us</a></Link>
             </li>
             <li>
               <a className="text-white hover:text-red-300" href="mailto:Handy.Man@gmail.com">Handy.Man@Gmail.com</a>
             </li>
-            <li>
+            <li className="mt-2">
               <a className="text-white hover:text-red-300" href="tel:0000000000">00000 000000</a>
             </li>
             </ul>

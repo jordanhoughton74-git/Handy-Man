@@ -48,29 +48,29 @@ export default function ContactForm() {
         <form onSubmit={sendEmail}>
                 <div>
           <div>
-            <label className="uppercase text-sm text-gray-600 font-bold">Full Name</label>
+            <label className="uppercase text-sm text-gray-600 font-bold">Full Name
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
               value={form.name} 
               name="name"
               id="name"
               onChange={handleChange} 
-              />
+              /></label>
 
           </div>
           <div className="mt-8">
-            <label className="uppercase text-sm text-gray-600 font-bold">Phone Number</label>
+            <label className="uppercase text-sm text-gray-600 font-bold">Phone Number
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               value={form.email} 
               onChange={handleChange}
               id="email"
               type="email" 
               name="email"
-              />
+              /></label>
 
           </div>
           <div className="mt-8">
-            <label className="uppercase text-sm text-gray-600 font-bold">Message</label>
+            <label className="uppercase text-sm text-gray-600 font-bold">Message
             <textarea
               className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               value={form.message} 
@@ -78,7 +78,7 @@ export default function ContactForm() {
               id="message"
               as="textarea" 
               name="message"
-    />
+    /></label>
           </div>
           <div className="mt-8">
             <button

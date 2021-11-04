@@ -26,7 +26,7 @@ export default function Example() {
     <header>
     <nav className="wrapper navbar flex items-center justify-between flex-wrap bg-teal-500 pt-6 pl-2 lg:px-12">
       <div className="flex items-center flex-shrink-0 text-white">
-      <Link href="/"><a><svg
+      <Link href="/"><a aria-label="home"><svg
       xmlns="http://www.w3.org/2000/svg"
       width="150"
       height="30"
