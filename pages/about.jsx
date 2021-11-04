@@ -1,6 +1,21 @@
+import Head from 'next/head'
+
 export default function About (){
     return (
         <>
+        <Head>
+        <title>About | Zorilov Handyman</title>
+        <meta name="title" content="About | Zorilov Handyman"/>
+        <meta name="description" content="Welcome to Zorilov Handyman from here you can find information about Zorilov Handyman"/>
+        <meta name="robots" content="index, follow"/>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="en"/>
+        <meta property="og:title" content="About |  Zorilov Handyman"/>
+        <meta property="og:site_name" content="Zorilov Handyman"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:description" content="Welcome to Zorilov Handyman from here you can find information about Zorilov Handyman"/>
+        <meta property="og:type" content="website"></meta>
+        </Head>
     <div className="handyman-top">
         <h1 className="py-40 text-center text-white text-3xl font-bold">About</h1>
 

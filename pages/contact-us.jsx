@@ -1,8 +1,25 @@
 import ContactForm from "../components/contact-form";
-
+import Head from 'next/head'
 
 export default function ContactUs (){
     return (
+<>
+      <Head>
+      <title>Contact Us | Zorilov Handyman</title>
+      <meta name="title" content="Contact Us | Zorilov Handyman"/>
+      <meta name="description" content="Welcome to Zorilov Handyman, get in contact for a free no obligation quote"/>
+      <meta name="robots" content="index, follow"/>
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="language" content="en"/>
+      <meta property="og:title" content="Contact Us |  Zorilov Handyman"/>
+      <meta property="og:site_name" content="Zorilov Handyman"/>
+      <meta property="og:url" content=""/>
+      <meta property="og:description" content="Welcome to Zorilov Handyman, get in contact for a free no obligation quote"/>
+      <meta property="og:type" content="website"></meta>
+    </Head>
+    <div className="bg-gray-600 py-10">
+
+    </div>
         <div className="bg-color p-4 md:p-12 lg:px-24">
             <div className="wrapper">
                 <div className="flex flex-col md:flex-row p-4 md:p-12 bg-white rounded-2xl">
@@ -65,5 +82,5 @@ export default function ContactUs (){
                 </div>
             </div>
         </div>
-    )
+ </>   )
 }

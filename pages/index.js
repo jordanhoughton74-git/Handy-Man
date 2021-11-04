@@ -1,20 +1,34 @@
+import Head from 'next/head';
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contact-form";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faHammer, faPaintRoller, faPencilRuler, faRuler, faRulerCombined, faToolbox, faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faHammer, faPaintRoller, faPencilRuler, faRuler, faRulerCombined, faToolbox } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>Handyman Services Sittingbourne & Kent | Zorilov Handyman</title>
+      <meta name="title" content="Handyman Services Kent & UK | Zorilov Handyman"/>
+      <meta name="description" content="Welcome to Zorilov Handyman, we offer a wide range of handyman services covering Sittingbourne, Kent and the surrounding areas"/>
+      <meta name="robots" content="index, follow"/>
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="language" content="en"/>
+      <meta property="og:title" content="Handyman Services Kent & UK |  Zorilov Handyman"/>
+      <meta property="og:site_name" content="Zorilov Handyman"/>
+      <meta property="og:url" content=""/>
+      <meta property="og:description" content="Welcome to Zorilov Handyman, we offer a wide range of handyman services covering Sittingbourne, Kent and the surrounding areas"/>
+      <meta property="og:type" content="website"></meta>
+    </Head>
     <div className="min-h-screen home-top text-white">
       <div className="backdrop-filter backdrop-brightness-50 w-full min-h-screen justify-center text-center flex flex-col">
         <div>
           <h1 className="text-center py-3 text-3xl md:text-5xl lg:text-6xl">
             Zorilov Handyman
           </h1>
-          <p className="max-w-screen-sm text-xl text-center mx-auto p-4">Handy Man and Renovations Services, serving Sittingbourne, Kent and the surrounds areas</p>
+          <p className="max-w-screen-sm text-xl text-center mx-auto p-4">Handyman and Renovations Services, serving Sittingbourne, Kent and the surrounds areas</p>
           <div>
             <Link href="/contact-us"><a><button type="button" className="mt-1 mr-1 md:mx-4 w-40	bg-blue-600 py-2 px-4 rounded-full hover:bg-blue-700">Contact Us</button></a></Link>
             <Link href="/services"><a><button type="button" className="mt-1 ml-1 md:mx-4 w-40	bg-green-800 py-2 px-4 rounded-full hover:bg-green-800">View Services</button></a></Link>
@@ -34,7 +48,7 @@ export default function Home() {
         <div className="md:-mt-24 flex flex-col md:flex-row justify-center space-y-12 md:space-y-0 md:space-x-8 items-stretch px-4 md:px-12 pb-12 md:pb-24">
           <div className="w-full z-10 md:w-60 lg:w-72 bg-white p-4 shadow-lg text-center rounded-md">
             <div className="rounded-full h-20 w-20 bg-indigo-700 -mt-14 shadow-lg"><p className="icon-info text-white text-xl">100%</p></div>
-            <h2 className="text-2xl">Satisfaction Guarenteed</h2>
+            <h2 className="text-2xl">Satisfaction Guaranteed</h2>
             <p className="pt-2 text-lg text-gray-700">Trust our work, we offer full satisfaction so you can rest assured of a job well done.</p>
           </div>
 
@@ -47,7 +61,7 @@ export default function Home() {
           <div className="w-full z-10 md:w-60 lg:w-72 bg-white p-4 shadow-lg text-center rounded-md">
           <div className="rounded-full h-20 w-20 bg-purple-600 -mt-14 shadow-lg"><p className="icon-svg icon-info text-white text-xl"><svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg></p></div>
             <h2 className="text-2xl">Bespoke Service</h2>
-            <p className="pt-2 text-lg text-gray-700">All handy man services are quoted and fulfilled to your spec, ensuring you get exactly what you want.</p>
+            <p className="pt-2 text-lg text-gray-700">All Handyman services are quoted and fulfilled to your spec, ensuring you get exactly what you want.</p>
           </div>
 
         </div>
@@ -58,7 +72,7 @@ export default function Home() {
         <div className="py-12 px-2 md:py-24 justify-center text-center">
           <h3 className="text-4xl pb-3">Local Personal Service</h3> 
           <hr className="border-4	border-indigo-700 w-1/4 rounded mx-auto mb-3" />
-          <p className="max-w-screen-sm mx-auto text-lg pb-4">We are a Handy Man and Renovation specialist based in Sittingbourne, Kent and serve the surrounding areas. Satisfaction is key to the success of our family run business, so sit back and relax while we take care of making your house your home. </p>
+          <p className="max-w-screen-sm mx-auto text-lg pb-4">We are a Handyman and Renovation specialist based in Sittingbourne, Kent and serve the surrounding areas. Satisfaction is key to the success of our family run business, so sit back and relax while we take care of making your house your home. </p>
           <Link href="/services"><a><button type="button" className="mt-1 text-white mr-1 md:mx-4 w-40	bg-blue-600 py-2 px-4 rounded-full hover:bg-blue-700">View The Range</button></a></Link>
       </div>
     </div>
@@ -66,17 +80,14 @@ export default function Home() {
   <div className="wrapper text-center pb-20">
   <h4 className="text-3xl py-10 text-indigo-800 font-bold">What does Zorilov Handyman Do?</h4>
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-3 items-stretch md:px-44">
-    <div><FontAwesomeIcon icon={faBuilding} /><p>Internal & External Repairs</p></div>
-    <div><FontAwesomeIcon icon={faHammer} /><p>Partial as well as complete repairs</p></div>
-    <div><FontAwesomeIcon icon={faHammer} /><p>Gypsum plasterboard</p></div>
-    <div><FontAwesomeIcon icon={faRulerCombined} /><p>Gypsum plasterboard wall partitions</p></div>
-    <div><FontAwesomeIcon icon={faRuler} /><p>Partial and complete plastering services</p></div>
-    <div><FontAwesomeIcon icon={faPaintRoller} /><p>Partial and complete painting and decorating</p></div>
-    <div><FontAwesomeIcon icon={faPencilRuler} /><p>Floor and wall coverings</p></div>
-    <div><FontAwesomeIcon icon={faWrench} /><p>Repair of bathrooms, toilets and dry rooms</p></div>
-    <div><FontAwesomeIcon icon={faToolbox} /><p>Assembling or disassembling furniture</p></div>
+    <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faHammer} /></span><p className="pt-5">Internal & External Repairs</p></div>
+    <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faRulerCombined} /></span><p className="pt-5">Gypsum plasterboard as well as wall partitions</p></div>
+    <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faRuler} /></span><p className="pt-5">Partial and complete plastering services</p></div>
+    <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faPencilRuler} /></span><p className="pt-5">Floor and wall coverings</p></div>
+    <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faPaintRoller} /></span><p className="pt-5">Partial and complete painting and decorating</p></div>
+    <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faToolbox} /></span><p className="pt-5">Assembling or disassembling furniture</p></div>
     </div>
-    <p className="pt-10 text-xl">And much more get in <Link href="/contact-us"><a className="text-indigo-800 hover:underline">contact now!</a></Link> To find out more information on the services <Link href="/services"><a className="text-indigo-700 hover:underline">click here</a></Link></p>
+    <p className="pt-10 text-xl">And much more get in <Link href="/contact-us"><a className="text-indigo-800 hover:underline">contact now!</a></Link> Or find out more about our <Link href="/services"><a className="text-indigo-700 hover:underline">services.</a></Link></p>
   </div>
 </div>  
 

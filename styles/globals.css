@@ -74,7 +74,15 @@ h2 {
 .max-width {
     max-width: 400px;
 }
-
+/* .fa-w-18 {
+    height: 1rem;
+    width: 1.25rem;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+} */
 .custom-shape-divider-bottom-1628680838 {
     position: absolute;
     margin-bottom: -1px;
@@ -102,6 +110,9 @@ h2 {
 .collapsing {
     transition: all .3s ease;
 
+}
+.green-text {
+    color: #008000
 }
 
 /** For mobile devices **/
