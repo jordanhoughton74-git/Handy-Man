@@ -23,8 +23,7 @@ export default function Home() {
       <meta property="og:description" content="Welcome to Zorilov Handyman, we offer a wide range of handyman services covering Sittingbourne, Kent and the surrounding areas"/>
       <meta property="og:type" content="website"></meta>
     </Head>
-    <div className="min-h-screen relative text-white">
-      <Image priority="true" layout="fill" objectFit="cover" src="/images/LandingPage.webp" />
+    <div className="min-h-screen home-top text-white">
       <div className="backdrop-filter backdrop-brightness-50 w-full min-h-screen justify-center text-center flex flex-col">
         <div>
           <h1 className="text-center py-3 text-4xl md:text-5xl lg:text-6xl">
