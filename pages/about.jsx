@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import ReactCompareImage from 'react-compare-image';
 
 export default function About (){
@@ -67,7 +68,7 @@ export default function About (){
         </div>
     </div>
     <div className="px-4 md:px-40 lg:px-80 text-center bg-color">
-        <h3 className="py-6 text-2xl font-semibold italic">Before & After</h3>
+        <h3 className="py-6 text-2xl font-semibold italic text-indigo-900">Before & After</h3>
         <hr className="border-4	border-indigo-500 w-1/4 rounded mb-3 mx-auto" />
 
         <p className="pb-5 text-xl">The construction of a wall in a clients garden</p>
@@ -76,12 +77,12 @@ export default function About (){
         <ReactCompareImage leftAlt="before patio" rightAlt="after patio" leftImage="images/before-after/before-patio.webp" rightImage="images/before-after/after-patio.webp" />
 
     </div>
-    <div className="bg-color text-center py-10">
+    <div className="bg-color text-center pt-10 pb-20">
         <div className="wrapper">
 
-            <h4 className="text-xl italic py-10">Don't Just Take Our Word For It, Here Is What Our Customers Are Saying!</h4>
+            <h4 className="text-2xl semi-bold italic py-10 text-indigo-900">Don't Just Take Our Word For It, Here Is What Our Customers Are Saying!</h4>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-24">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-24 pb-5">
                     <div className="bg-white rounded-md shadow-lg p-4">
                         <svg xmlns="http://www.w3.org/2000/svg" className="text-indigo-600 -mt-10 fill-current w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24"><path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L9.758 4.03c0 0-.218.052-.597.144C8.97 4.222 8.737 4.278 8.472 4.345c-.271.05-.56.187-.882.312C7.272 4.799 6.904 4.895 6.562 5.123c-.344.218-.741.4-1.091.692C5.132 6.116 4.723 6.377 4.421 6.76c-.33.358-.656.734-.909 1.162C3.219 8.33 3.02 8.778 2.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C2.535 17.474 4.338 19 6.5 19c2.485 0 4.5-2.015 4.5-4.5S8.985 10 6.5 10zM17.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L20.758 4.03c0 0-.218.052-.597.144-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162C14.219 8.33 14.02 8.778 13.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C13.535 17.474 15.338 19 17.5 19c2.485 0 4.5-2.015 4.5-4.5S19.985 10 17.5 10z" /></svg>
                         <p className="text-xl">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
@@ -98,6 +99,8 @@ export default function About (){
                         <p className="text-left text-gray-600">Ron Jon</p>
                      </div>
             </div>
+            <Link href="/contact-us"><a><button type="button" className="mt-1 text-white mr-1 md:mx-4 w-40 bg-blue-600 py-2 px-4 rounded-full hover:bg-blue-700">Book Now </button></a></Link>
+
         
         </div>
     </div>

@@ -293,16 +293,16 @@ export default function Example() {
       </div>
       <div className="w-full hidden lg:block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow text-right text-white">
-          <Link href="/"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          <Link href="/"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-indigo-300 mr-4">
             Home
           </a></Link>
-          <Link href="/services"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          <Link href="/services"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-indigo-300 mr-4">
             Services
           </a></Link>
-          <Link href="/about"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          <Link href="/about"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-indigo-300 mr-4">
             About
           </a></Link>
-          <Link href="/contact-us"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+          <Link href="/contact-us"><a className="block mt-4 text-lg lg:inline-block lg:mt-0 text-teal-200 hover:text-indigo-300">
             Contact Us
           </a></Link>
         </div>

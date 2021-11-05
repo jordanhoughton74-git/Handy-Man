@@ -24,7 +24,7 @@ export default function services(){
         <div className="py-24 justify-center text-center">
           <h2 className="text-4xl pb-3 font-semibold">View the wide range of handyman services offered</h2> 
           <hr className="border-4	border-indigo-500 w-1/4 rounded mx-auto mb-3" />
-          <p className="max-w-screen-sm mx-auto text-lg pb-4 italic">We discuss your project with you to find the exact materials that suit all budgets and requirements. </p>
+          <p className="max-w-screen-sm mx-auto text-lg pb-4 italic">We discuss your project with you to find the exact materials that suit any budgets and requirements. </p>
           <Link href="/contact-us"><a><button type="button" className="mt-1 text-white mr-1 md:mx-4 w-40 bg-blue-600 py-2 px-4 rounded-full hover:bg-blue-700">Book Now </button></a></Link>
       </div>
     </div>

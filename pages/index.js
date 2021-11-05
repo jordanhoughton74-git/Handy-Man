@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image'
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contact-form";
 import Link from "next/link";
@@ -22,7 +23,8 @@ export default function Home() {
       <meta property="og:description" content="Welcome to Zorilov Handyman, we offer a wide range of handyman services covering Sittingbourne, Kent and the surrounding areas"/>
       <meta property="og:type" content="website"></meta>
     </Head>
-    <div className="min-h-screen home-top text-white">
+    <div className="min-h-screen relative text-white">
+      <Image priority="true" layout="fill" objectFit="cover" src="/images/LandingPage.webp" />
       <div className="backdrop-filter backdrop-brightness-50 w-full min-h-screen justify-center text-center flex flex-col">
         <div>
           <h1 className="text-center py-3 text-4xl md:text-5xl lg:text-6xl">
@@ -31,7 +33,7 @@ export default function Home() {
           <p className="max-w-screen-sm text-xl text-center mx-auto p-4">Handyman and Renovations Services, serving Sittingbourne, Kent and the surrounds areas</p>
           <div>
             <Link href="/contact-us"><a><button type="button" className="mt-1 mr-1 md:mx-4 w-40	bg-blue-600 py-2 px-4 rounded-full hover:bg-blue-700">Contact Us</button></a></Link>
-            <Link href="/services"><a><button type="button" className="mt-1 ml-1 md:mx-4 w-40	bg-green-800 py-2 px-4 rounded-full hover:bg-green-800">View Services</button></a></Link>
+            <Link href="/services"><a><button type="button" className="mt-1 ml-1 md:mx-4 w-40	bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">View Services</button></a></Link>
           </div>
           </div>
         </div>

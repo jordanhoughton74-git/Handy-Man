@@ -160,4 +160,7 @@ h2 {
     .home-top {
     background-image: url("/images/LandingPageMobile.webp");
     }
+    .test-back {
+    background-image: url("/images/Testimonial-Mobile.webp");   
+    }
 }

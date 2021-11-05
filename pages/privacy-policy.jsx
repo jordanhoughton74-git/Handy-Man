@@ -3,18 +3,29 @@ import Head from "next/head";
 function PrivacyPolicy (){
 return (
 <>
+<Head>
+      <title>Privacy Policy | Zorilov Handyman</title>
+      <meta name="title" content="Privacy Policy | Zorilov Handyman"/>
+      <meta name="description" content="Welcome to Zorilov Handyman, view our wide range of services that we offer in Sittingbourne, Kent"/>
+      <meta name="robots" content="index, follow"/>
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="language" content="en"/>
+      <meta property="og:title" content="Privacy Policy |  Zorilov Handyman"/>
+      <meta property="og:site_name" content="Zorilov Handyman"/>
+      <meta property="og:url" content=""/>
+      <meta property="og:description" content="Welcome to Zorilov Handyman, view our wide range of services that we offer"/>
+      <meta property="og:type" content="website"></meta>
+    </Head>
 <div className="bg-gray-600 py-10">
-
 </div>
-
   <div className="p-10 bg-color">
     <div className="wrapper">
       <div className="left">
 
 
-      <h1 className="text-2xl py-4">Privacy Policy for Houghton Web Design</h1>
+      <h1 className="text-2xl py-4">Privacy Policy for Zorilov Handyman</h1>
 
-      <p>At Houghton Web Design, accessible from www.houghtonwebdesign.co.uk, one of our main priorities is the privacy of our
+      <p>At Zorilov Handyman, accessible from www.zorilovhandyman.co.uk, one of our main priorities is the privacy of our
         visitors. This Privacy Policy document contains types of information that is collected and recorded by Houghton Web
         Design and how we use it.</p>
 
@@ -22,7 +33,7 @@ return (
         contact us.</p>
 
       <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards
-        to the information that they shared and/or collect in Houghton Web Design. This policy is not applicable to any
+        to the information that they shared and/or collect in Zorilov Handyman. This policy is not applicable to any
         information collected offline or via channels other than this website.</p>
 
       <h2 className="text-xl py-4">Consent</h2>
@@ -57,7 +68,7 @@ return (
 
       <h2 className="text-xl py-4">Log Files</h2>
 
-      <p>Houghton Web Design follows a standard procedure of using log files. These files log visitors when they visit
+      <p>Zorilov Handyman follows a standard procedure of using log files. These files log visitors when they visit
         websites. All hosting companies do this and a part of hosting services' analytics. The information collected by
         log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time
         stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is
@@ -66,7 +77,7 @@ return (
 
       <h2 className="text-xl py-4">Cookies and Web Beacons</h2>
 
-      <p>Like any other website, Houghton Web Design uses 'cookies'. These cookies are used to store information including
+      <p>Like any other website, Zorilov Handyman uses 'cookies'. These cookies are used to store information including
         visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is
         used to optimize the users' experience by customizing our web page content based on visitors' browser type
         and/or other information.</p>
@@ -78,27 +89,27 @@ return (
 
       <h2 className="text-xl py-4">Advertising Partners Privacy Policies</h2>
 
-      <p>You may consult this list to find the Privacy Policy for each of the advertising partners of Houghton Web Design.</p>
+      <p>You may consult this list to find the Privacy Policy for each of the advertising partners of Zorilov Handyman.</p>
 
       <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used
-        in their respective advertisements and links that appear on Houghton Web Design, which are sent directly to users'
+        in their respective advertisements and links that appear on Zorilov Handyman, which are sent directly to users'
         browser. They automatically receive your IP address when this occurs. These technologies are used to measure the
         effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on
         websites that you visit.</p>
 
-      <p>Note that Houghton Web Design has no access to or control over these cookies that are used by third-party
+      <p>Note that Zorilov Handyman has no access to or control over these cookies that are used by third-party
         advertisers.</p>
 
       <h2 className="text-xl py-4">Third Party Privacy Policies</h2>
 
-      <p>Houghton Web Design's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
+      <p>Zorilov Handyman's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
         consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may
         include their practices and instructions about how to opt-out of certain options. </p>
 
       <p>You can choose to disable cookies through your individual browser options. To know more detailed information
         about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
 
-      <p>Houghton Web Design does use Third party services to provide a better service for you, with information being stored
+      <p>Zorilov Handyman does use Third party services to provide a better service for you, with information being stored
         or moved there. These services are:</p>
       <ul>
         <li>Google Analytics</li>
@@ -129,7 +140,7 @@ return (
       <p>Another part of our priority is adding protection for children while using the internet. We encourage parents
         and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
 
-      <p>Houghton Web Design does not knowingly collect any Personal Identifiable Information from children under the age of
+      <p>Zorilov Handyman does not knowingly collect any Personal Identifiable Information from children under the age of
         13. If you think that your child provided this kind of information on our website, we strongly encourage you to
         contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
 
