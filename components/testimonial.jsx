@@ -1,8 +1,10 @@
-
+import Image from 'next/image'
 export default function Testimonial() {
     return (
 
-        <div className="test-back mx-auto">
+        <div className="mx-auto relative">
+        <Image layout="fill" objectFit="cover" src="/images/Testimonial.webp" />
+
             <div className="backdrop-filter backdrop-brightness-50 w-full h-full">
                 <h4 className="text-white py-12 font-semibold text-center text-3xl md:pt-24">What Our Customers Are Saying!</h4>
                 <div className=" mx-auto pb-10 md:pb-12 md:px-24 wrapper">
