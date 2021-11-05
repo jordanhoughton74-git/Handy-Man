@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image'
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contact-form";
 import Link from "next/link";
