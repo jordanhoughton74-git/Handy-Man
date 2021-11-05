@@ -66,19 +66,14 @@ export default function About (){
             </div>
         </div>
     </div>
-
     <div className="px-4 md:px-40 lg:px-80 text-center bg-color">
-        <h3 className="pt-4 text-2xl">Before and After</h3>
+        <h3 className="py-6 text-2xl font-semibold italic">Before & After</h3>
+        <hr className="border-4	border-indigo-500 w-1/4 rounded mb-3 mx-auto" />
 
-        <p className="pb-5 text-xl">Before and After images of a wall build in a garden</p>
+        <p className="pb-5 text-xl">The construction of a wall in a clients garden</p>
         <ReactCompareImage className="pb-10" leftAlt="before the wall was renovated" rightAlt="after the wall was renovated" leftImage="images/before-after/before-wall.webp" rightImage="images/before-after/after-wall.webp" />
-        <p className="py-5 text-xl">Before and After images of a stylish patio</p>
+        <p className="py-5 text-xl">The client wanted a stylish patio to complement the garden works we carried out</p>
         <ReactCompareImage leftAlt="before patio" rightAlt="after patio" leftImage="images/before-after/before-patio.webp" rightImage="images/before-after/after-patio.webp" />
-
-
-
-
-
 
     </div>
     <div className="bg-color text-center py-10">

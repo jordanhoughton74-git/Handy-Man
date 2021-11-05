@@ -25,7 +25,7 @@ export default function Home() {
     <div className="min-h-screen home-top text-white">
       <div className="backdrop-filter backdrop-brightness-50 w-full min-h-screen justify-center text-center flex flex-col">
         <div>
-          <h1 className="text-center py-3 text-3xl md:text-5xl lg:text-6xl">
+          <h1 className="text-center py-3 text-4xl md:text-5xl lg:text-6xl">
             Zorilov Handyman
           </h1>
           <p className="max-w-screen-sm text-xl text-center mx-auto p-4">Handyman and Renovations Services, serving Sittingbourne, Kent and the surrounds areas</p>

@@ -22,7 +22,7 @@ h2 {
     position: relative;
 }
 .home-top {
-    background-image: url("/images/WoodenFloorMain.webp");
+    background-image: url("/images/LandingPage.webp");
 }
 .test-back {
     background-image: url("/images/Testimonial.webp");   
@@ -123,9 +123,15 @@ h2 {
 }
 
 
+
 @media only screen and (min-width: 1441px) {
     .min-h-screen {
         min-height: 90vh;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .min-h-screen {
+        min-height: 74vh;
     }
 }
 @media (min-width:1000px) and (max-height:500px) {
@@ -151,6 +157,7 @@ h2 {
     .wrapper {
         max-width: 500px;
     }
-
-
+    .home-top {
+    background-image: url("/images/LandingPageMobile.webp");
+    }
 }

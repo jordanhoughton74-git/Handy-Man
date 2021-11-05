@@ -35,7 +35,7 @@ export default function services(){
             <div className="bg-white">
         
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="order-last md:order-first line-space brightness-50">
+                <div className="order-last md:order-first line-space">
                     <Image 
                     src="/services/External-Repair.jpg" 
                     width={880} 
@@ -65,7 +65,7 @@ export default function services(){
                     <p className="relative text-gray-600 serif z-20 font-normal italic px-6 py-12 lg:px-16 lg:py-10 text-xl md:text-2xl">
                         Need a quick and painless repair made be it partial or complete? We have you have covered!</p>
                 </div>
-                <div className="line-space brightness-50">
+                <div className="line-space">
                     <Image 
                     src="/services/Partial-Repairs.jpg" 
                     width={880} 
@@ -77,7 +77,7 @@ export default function services(){
 
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="order-last md:order-first line-space brightness-50">
+                <div className="order-last md:order-first line-space">
                     <Image 
                     src="/images/WoodenFloor.jpg" 
                     width={880} 
@@ -104,7 +104,7 @@ export default function services(){
                     <p className="relative text-gray-600 serif z-20 font-normal italic px-6 py-12 lg:px-16 lg:py-10 text-xl md:text-2xl">
                         No job is too small, need something only partially painted, we can give you a no obligation quote!</p>
                 </div>
-                <div className="line-space brightness-50">
+                <div className="line-space">
                     <Image 
                     src="/services/Partial-Painting.jpg" 
                     width={880} 
@@ -117,7 +117,7 @@ export default function services(){
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="order-last md:order-first line-space brightness-50">
+                <div className="order-last md:order-first line-space">
                     <Image 
                     src="/services/Painting.jpg" 
                     width={880} 
@@ -145,7 +145,7 @@ export default function services(){
                     <p className="relative text-gray-600 serif z-20 font-normal italic px-6 py-12 lg:px-16 lg:py-10 text-xl md:text-2xl">
                        Our experienced staff can take care of any repair problem you have, let us know if you have an issue.</p>
                 </div>
-                <div className="line-space brightness-50">
+                <div className="line-space">
                     <Image 
                     src="/services/Toilets.jpg" 
                     width={880} 
@@ -160,7 +160,7 @@ export default function services(){
 
 
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="order-last md:order-first line-space brightness-50">
+                <div className="order-last md:order-first line-space">
                     <Image 
                     src="/services/Floor.jpg" 
                     width={880} 
@@ -189,7 +189,7 @@ export default function services(){
                     <p className="relative text-gray-600 serif z-20 font-normal italic px-6 py-12 lg:px-16 lg:py-10 text-xl md:text-2xl">
                         Need a wall replastered or repaired? Zorilov Handyman has this solved with our first class plastering services.</p>
                 </div>
-                <div className="line-space brightness-50">
+                <div className="line-space">
                     <Image 
                     src="/services/Plastering.jpg" 
                     width={880} 
@@ -204,7 +204,7 @@ export default function services(){
 
 
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="order-last md:order-first line-space brightness-50">
+                <div className="order-last md:order-first line-space">
                     <Image 
                     src="/services/Furniture.jpg" 
                     width={880} 
