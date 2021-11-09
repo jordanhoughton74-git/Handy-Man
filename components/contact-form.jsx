@@ -25,7 +25,7 @@ export default function ContactForm() {
   function sendEmail(e){
       e.preventDefault();
 
-      emailjs.sendForm("service_lyxdm5a", "template_0ku1x0p", e.target, "user_JmyFU7LsCDhH5vpHThW4P")
+      emailjs.sendForm("service_ubui3ko", "template_axy8gom", e.target, "user_8CzogTrZceKVQhECXuo82")
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -33,7 +33,7 @@ export default function ContactForm() {
       });
       setForm({
           name: "",
-          email: "",
+          telephone: "",
           message: ""   
       });
       makeVisible();
@@ -51,6 +51,7 @@ export default function ContactForm() {
             <label className="uppercase text-sm text-gray-600 font-bold">Full Name
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
+              required
               value={form.name} 
               name="name"
               id="name"
@@ -61,11 +62,12 @@ export default function ContactForm() {
           <div className="mt-8">
             <label className="uppercase text-sm text-gray-600 font-bold">Phone Number
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              value={form.email} 
+              value={form.telephone} 
+              required
               onChange={handleChange}
-              id="email"
-              type="email" 
-              name="email"
+              id="telephone"
+              type="tel" 
+              name="telephone"
               /></label>
 
           </div>

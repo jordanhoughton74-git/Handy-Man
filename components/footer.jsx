@@ -301,10 +301,10 @@ export default function Footer(){
             <Link href="/contact-us"><a className="text-white hover:text-red-300">Contact Us</a></Link>
             </li>
             <li>
-              <a className="text-white hover:text-red-300" href="mailto:Handy.Man@gmail.com">Handy.Man@Gmail.com</a>
+              <a className="text-white hover:text-red-300" href="mailto:StoyanZorilov@gmail.com">StoyanZorilov@gmail.com</a>
             </li>
             <li className="mt-2">
-              <a className="text-white hover:text-red-300" href="tel:0000000000">00000 000000</a>
+              <a className="text-white hover:text-red-300" href="tel:07596021207">07596 021207</a>
             </li>
             </ul>
           </nav>
