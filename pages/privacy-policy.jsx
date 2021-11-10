@@ -26,8 +26,8 @@ return (
       <h1 className="text-2xl py-4">Privacy Policy for Zorilov Handyman</h1>
 
       <p>At Zorilov Handyman, accessible from www.zorilovhandyman.co.uk, one of our main priorities is the privacy of our
-        visitors. This Privacy Policy document contains types of information that is collected and recorded by Houghton Web
-        Design and how we use it.</p>
+        visitors. This Privacy Policy document contains types of information that is collected and recorded by  Zorilov
+        Handyman and how we use it.</p>
 
       <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to
         contact us.</p>
@@ -53,14 +53,14 @@ return (
       <h2 className="text-xl py-4">How we use your information</h2>
 
       <p>We use the information we collect in various ways, including to:</p>
-
-      <ul>
-        <li>Provide, operate, and maintain our webste</li>
-        <li>Improve, personalize, and expand our webste</li>
-        <li>Understand and analyze how you use our webste</li>
+      
+      <ul className="list-disc list-inside">
+        <li>Provide, operate, and maintain our website</li>
+        <li>Improve, personalize, and expand our website</li>
+        <li>Understand and analyze how you use our website</li>
         <li>Develop new products, services, features, and functionality</li>
         <li>Communicate with you, either directly or through one of our partners, including for customer service, to
-          provide you with updates and other information relating to the webste, and for marketing and promotional
+          provide you with updates and other information relating to the website, and for marketing and promotional
           purposes</li>
         <li>Send you emails</li>
         <li>Find and prevent fraud</li>
@@ -111,7 +111,7 @@ return (
 
       <p>Zorilov Handyman does use Third party services to provide a better service for you, with information being stored
         or moved there. These services are:</p>
-      <ul>
+      <ul className="list-disc list-inside">
         <li>Google Analytics</li>
         <li>EmailJS</li>
         <li>Gmail</li>
@@ -133,7 +133,7 @@ return (
       <p>The right to data portability – You have the right to request that we transfer the data that we have collected
         to another organization, or directly to you, under certain conditions.</p>
       <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights,
-        please contact us at info@houghtonwebdesign.co.uk.</p>
+        please contact us at stoyanzorilov@gmail.com.</p>
 
       <h2 className="text-xl py-4">Children's Information</h2>
 
@@ -146,7 +146,7 @@ return (
 
       <h2 className="text-xl py-4">How to complain</h2>
 
-      <p>If you have a complaint regarding this policy please email: info@houghtonwebdesign.co.uk</p>
+      <p>If you have a complaint regarding this policy please email: stoyanzorilov@gmail.com</p>
       </div>
     </div>
   </div>

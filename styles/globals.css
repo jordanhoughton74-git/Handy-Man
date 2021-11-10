@@ -28,7 +28,7 @@ h2 {
     background-image: url("/images/Testimonial.webp");   
 }
 .services-top {
-    background-image: url("/images/Service.jpg");
+    background-image: url("/images/Service2.webp");
 }
 .handyman-top {
     background-image: url("/images/About-HandyMan.jpg")
@@ -55,7 +55,7 @@ h2 {
     background-size: 16px 16px;
 }
 .grid-grey {
-    background-image: radial-gradient(#ffea00 2px, transparent 2px);
+    background-image: radial-gradient(#D3D3D3 2px, transparent 2px);
     background-size: 16px 16px;
 }
 

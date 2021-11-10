@@ -44,9 +44,9 @@ export default function About (){
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-indigo-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <p className="pt-2 text-xl italic text-indigo-900">Quality Guarenteed</p>
+                    <p className="pt-2 text-xl italic text-indigo-900">Quality Guaranteed</p>
                     <p className="text-gray-700">Being a small business my clients are a showcase of my work,
-                    I aim to for 100% satisfaction on any job.</p>    
+                    I aim for 100% satisfaction on any job.</p>    
                 </div>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -72,9 +72,9 @@ export default function About (){
         <hr className="border-4	border-indigo-500 w-1/4 rounded mb-3 mx-auto" />
 
         <p className="pb-5 text-xl">The construction of a wall in a clients garden</p>
-        <ReactCompareImage className="pb-10" leftAlt="before the wall was renovated" rightAlt="after the wall was renovated" leftImage="images/before-after/before-wall.webp" rightImage="images/before-after/after-wall.webp" />
+        <ReactCompareImage className="pb-10" leftImageAlt="before the wall was renovated" rightAlt="after the wall was renovated" leftImage="images/before-after/before-wall.webp" rightImage="images/before-after/after-wall.webp" />
         <p className="py-5 text-xl">The client wanted a stylish patio to complement the garden works we carried out</p>
-        <ReactCompareImage leftAlt="before patio" rightAlt="after patio" leftImage="images/before-after/before-patio.webp" rightImage="images/before-after/after-patio.webp" />
+        <ReactCompareImage leftImageAlt="before patio" rightAlt="after patio" leftImage="images/before-after/before-patio.webp" rightImage="images/before-after/after-patio.webp" />
 
     </div>
     <div className="bg-color text-center pt-10 pb-20">

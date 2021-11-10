@@ -28,7 +28,7 @@ export default function Home() {
           <h1 className="text-center py-3 text-4xl md:text-5xl lg:text-6xl">
             Zorilov Handyman
           </h1>
-          <p className="max-w-screen-sm text-xl text-center mx-auto p-4">Handyman and Renovations Services, serving Sittingbourne, Kent and the surrounds areas</p>
+          <p className="max-w-screen-sm text-xl text-center mx-auto p-4">Handyman and Renovations Services serving Sittingbourne, Kent and the surrounds areas</p>
           <div>
             <Link href="/contact-us"><a><button type="button" className="mt-1 mr-1 md:mx-4 w-40	bg-blue-600 py-2 px-4 rounded-full hover:bg-blue-700">Contact Us</button></a></Link>
             <Link href="/services"><a><button type="button" className="mt-1 ml-1 md:mx-4 w-40	bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">View Services</button></a></Link>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
     </div>
 <div className="bg-color">
-  <div className="wrapper text-center pb-20">
+  <div className="wrapper text-center pb-20 px-10">
   <h4 className="text-3xl py-10 text-indigo-800 font-bold">What does Zorilov Handyman Do?</h4>
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-3 items-stretch md:px-44">
     <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faHammer} /></span><p className="pt-5">Internal & External Repairs</p></div>
@@ -87,7 +87,7 @@ export default function Home() {
     <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faPaintRoller} /></span><p className="pt-5">Partial and complete painting and decorating</p></div>
     <div><span className="p-4 bg-blue-700 rounded text-white text-2xl"><FontAwesomeIcon icon={faToolbox} /></span><p className="pt-5">Assembling or disassembling furniture</p></div>
     </div>
-    <p className="pt-10 text-xl">And much more get in <Link href="/contact-us"><a className="text-indigo-800 hover:underline">contact now!</a></Link> Or find out more about our <Link href="/services"><a className="text-indigo-700 hover:underline">services.</a></Link></p>
+    <p className="pt-10 text-xl">And much more, get in <Link href="/contact-us"><a className="text-indigo-800 hover:underline">contact now!</a></Link> Or find out more about our <Link href="/services"><a className="text-indigo-700 hover:underline">services.</a></Link></p>
   </div>
 </div>  
 

@@ -91,7 +91,7 @@ export default function services(){
 
                     <h2 className="relative text-4xl text-gray-800 z-20 font-semibold italic">Gypsum Plasterboard and Wall Partitions</h2>
                     <p className="relative text-gray-600 serif z-20 font-normal italic px-6 py-12 lg:px-16 lg:py-10 text-xl md:text-2xl">
-                        Zorilov Handyman offers complete Gypsum Plasterboard services be it wall partions or wall coverings</p>
+                        Zorilov Handyman offers complete Gypsum Plasterboard services be it wall partitions or wall coverings</p>
                 </div>
 
             </div>

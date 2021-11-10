@@ -25,7 +25,7 @@ export default function ContactUs (){
                 <div className="flex flex-col md:flex-row p-4 md:p-12 bg-white rounded-2xl">
                 <div className="flex-1 flex flex-col my-auto">
         <h5 className="text-center font-bold uppercase pb-4 text-3xl">Get In Touch!</h5>
-        <p className="text-gray-600 pb-4 md:pr-4">Whether you want a quote or just need to ask a question it all starts by filling out the form and getting in touch with us.  If you dont like forms, no worries give us a call, drop us an email or view us on our Social Media.</p>
+        <p className="text-gray-600 pb-4 md:pr-4">Whether you want a quote or just need to ask a question it all starts by filling out the form and getting in touch with us.  If you don't like forms, no worries give us a call, drop us an email or view us on our Social Media.</p>
         <div>
           <p className="pb-4 text-gray-600 flex">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
