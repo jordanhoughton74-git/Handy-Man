@@ -79,7 +79,7 @@ export default function services(){
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="order-last md:order-first line-space">
                     <Image 
-                    src="/images/WoodenFloor.jpg" 
+                    src="/services/plasterboard.jpg" 
                     width={880} 
                     height={880} 
                     className="max-width"
