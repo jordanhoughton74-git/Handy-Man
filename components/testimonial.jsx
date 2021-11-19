@@ -15,12 +15,10 @@ export default function Testimonial() {
                         <div className="h-full relative z-10">
                             <div>
                                 <p className="text-white serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl">
-                                    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+                                Thank you Stoyan for the fabulous job that you did tiling my porch.  Polite, Punctual and Professional, whilst socially distancing. Couldn't ask for more.
                                 </p>
-
                                 <div className="text-center">
-                                    <p className="text-sm md:text-base font-bold text-gray-300 leading-tight">John Wick</p>
-                                    <small className="text-gray-100 text-xs md:text-sm truncate">Product Manager, Fake Corp.</small>
+                                    <p className="text-sm md:text-base font-bold text-gray-300 leading-tight pb-4">Izabela</p>
                                 </div>
                             </div>
                         </div>
